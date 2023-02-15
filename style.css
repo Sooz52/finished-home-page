@@ -108,7 +108,7 @@ h4 {
   box-shadow: 5px 5px 10px #6f7364;
 }
 .rivers-card, .camping-card, .rapids-card {
-  margin: 200px auto;
+  margin: 50px;
 }
 .rivers-card {
   grid-column: 2/4;
