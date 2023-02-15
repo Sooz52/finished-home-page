@@ -13,11 +13,12 @@ div {
 }
 home-grid {
   display: grid;
-  grid-template-columns: repeat(10, 1fr); 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
 }
 header {
     display: grid;
     grid-template-columns: 150px auto;
+   background-color: #143109;
 }
 nav {
   display: flex;
@@ -94,9 +95,6 @@ h2 {
 h4 {
   color: #D8DDDE;
 }
-  header {
-    background-color: #143109;
-}
   nav a:hover { 
     background-color: #BD632F;
     color: #D8973C;
@@ -110,7 +108,7 @@ h4 {
   box-shadow: 5px 5px 10px #6f7364;
 }
 .rivers-card, .camping-card, .rapids-card {
-  margin: 200px 0;
+  margin: 200px auto;
 }
 .rivers-card {
   grid-column: 2/4;
